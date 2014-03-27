@@ -2,6 +2,8 @@
 
 #### _Generate HTML from a plain object definition_
 
+[![Build Status](https://drone.io/github.com/mvhenten/html-generate/status.png)](https://drone.io/github.com/mvhenten/html-generate/latest)
+
 These are simple helper functions to generate html from a plain javascript object render tree.
 
 Rendering a complex html widget sometimes involves logic that is too much to handle inside a
