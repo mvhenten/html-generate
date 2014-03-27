@@ -12,12 +12,12 @@ as possible by using simple for loops and little functions.
 
 ### Installation
 
-    npm install html-helper
+    npm install html-generate
 
 ### Example:
 
 ```javascript
-    var HTML = require('html-helper');
+    var HTML = require('html-generate');
 
     var html = HTML.element({
         tagName: 'p',
