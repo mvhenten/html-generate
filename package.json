@@ -3,6 +3,10 @@
     "version": "0.0.1",
     "description": "Generate HTML from a plain object definition",
     "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:mvhenten/html-element.git"
+    },
     "scripts": {
         "test": "./node_modules/mocha/bin/mocha -u tdd test/html-element.js"
     },

@@ -1,15 +1,15 @@
 # html-element
-Generate HTML from a plain object definition
+#### _Generate HTML from a plain object definition_
 
-Simple helper functions to generate html from javascript objects as configuration hashes.
+These are simple helper functions to generate html from a plain javascript object render tree.
 
-I was rendering a complex html widget involving some logic that was too much to handle in a
-template. Looking trough npmjs.org came up nada, so I wrote this.
+Rendering a complex html widget sometimes involves logic that is too much to handle inside a
+template. Once the logic is solved, outputing the html by concatinating some strings may end up messy.
 
 These functions are intended as low-level workhorses, so I've tried to keep the code as fast
 as possible by using simple for loops and little functions.
 
-### install
+### Installation
 
     npm install html-helper
 
@@ -34,7 +34,7 @@ as possible by using simple for loops and little functions.
     // </p>
 ```
 
-## Methods
+### Methods
 
 #### element
 
