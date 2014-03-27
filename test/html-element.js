@@ -23,6 +23,22 @@ suite(__filename, function() {
         });
 
         assert.equal(html, expected);
+        console.log(html);
+    });
+
+    test('.tag render simple element', function() {
+        var lipsum = Faker.Lorem.sentence();
+        var expected = ['<p foo="&quot;bar&quot;">' +
+                        lipsum, '    <div>' + lipsum + '</div>', '</p>'].join('\n');
+
+        var html = HTML.tag('p', lipsum, {
+            foo: '"bar"',
+            children: [{
+                text: lipsum
+            }]
+        });
+
+        assert.equal(html, expected);
     });
 
 });
