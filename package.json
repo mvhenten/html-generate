@@ -1,5 +1,5 @@
 {
-    "name": "html-element",
+    "name": "html-generate",
     "version": "0.0.1",
     "description": "Generate HTML from a plain object definition",
     "main": "index.js",

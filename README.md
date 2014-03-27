@@ -1,4 +1,5 @@
-# html-element
+# html-generate
+
 #### _Generate HTML from a plain object definition_
 
 These are simple helper functions to generate html from a plain javascript object render tree.
